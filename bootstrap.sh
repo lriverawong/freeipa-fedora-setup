@@ -5,7 +5,7 @@ dnf check-update -y
 dnf upgrade -y
 
 # Essential tools
-dnf install -y git htop sysstat curl wget neovim nfs-utils autofs
+dnf install -y git htop sysstat curl wget neovim nfs-utils autofs tree
 
 # Firewall - Allow FreeIPA Service
 #firewall-cmd --add-service=freeipa-ldap --add-service=freeipa-ldap --permanent

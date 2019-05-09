@@ -57,6 +57,9 @@ NFS Config
 
 AutoFS Setup
 - https://blog.delouw.ch/2015/03/14/using-ipa-to-provide-automount-maps-for-nfsv4-home-directories/
+- https://www.youtube.com/watch?v=M52cBQA-xfA&t=488s
+![alt text](./assets/freeipa-gui-autofs-master.png "FreeIPA GUI - AutoFs Master Node")
+![alt text](./assets/freeipa-gui-autofs-home.png "FreeIPA GUI - AutoFs Auto Home")
 
 ## Sources
 - [Fedora FreeIPA Guide](https://docs.fedoraproject.org/en-US/Fedora/18/html/FreeIPA_Guide/introduction.html)
@@ -64,3 +67,5 @@ AutoFS Setup
 - [Identity Management DevOps Conference Presentation](https://www.youtube.com/watch?v=cUQcNi_obIc)
 - [FreeIPA Setup Guide](https://www.server-world.info/en/note?os=Fedora_28&p=freeipa&f=3)
 - [HomeDir AutoFS](https://www.server-world.info/en/note?os=Fedora_28&p=nfs&f=1)
+- [HomeDir AutoFS Guide 2](https://www.redhat.com/archives/freeipa-users/2016-May/msg00380.html)
+- [LDAP and AutoFS for Login Authentication and Home Directory Mapping](https://www.youtube.com/watch?v=M52cBQA-xfA&t=488s)
