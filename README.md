@@ -35,3 +35,15 @@ FreeIPA is an integrated security information management solution combining 389 
 ### Sources
 - https://docs.fedoraproject.org/en-US/Fedora/18/html/FreeIPA_Guide/introduction.html
 - https://www.reddit.com/r/linuxadmin/comments/5ye1vt/openldap_freeipa_ad_whats_the_difference/
+
+## Home Lab Setup
+
+Start VMs
+```
+    vagrant up --provider virtualbox
+```
+
+Destroy VMs
+```
+    vagrant destroy
+```
