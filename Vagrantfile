@@ -29,13 +29,17 @@ Vagrant.configure("2") do |config|
   config.vm.define "server" do |server|
     server.vm.network "private_network", ip: "192.168.100.10"
     server.vm.hostname = "server.ipademo.local"
+    server.vm.provision "shell", inline: "sed -ri '0,/127\.0\.0\.1/s//192.168.100.10/' /etc/hosts"
     server.vm.provision "shell", path: "bootstrap.sh"
+    server.vm.provision "shell", inline: "dnf install -y freeipa-server freeipa-server-dns"
   end
 
   config.vm.define "client" do |client|
     client.vm.network "private_network", ip: "192.168.100.11"
     client.vm.hostname = "client.ipademo.local"
+    client.vm.provision "shell", inline: "sed -ri '0,/127\.0\.0\.1/s//192.168.100.11/' /etc/hosts"
     client.vm.provision "shell", path: "bootstrap.sh"
+    client.vm.provision "shell", inline: "dnf install -y freeipa-client oddjob-mkhomedir"
   end
 
   # Folder Settings
