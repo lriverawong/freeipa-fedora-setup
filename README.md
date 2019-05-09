@@ -63,4 +63,4 @@ AutoFS Setup
 - [Reddit - FreeIPA vs. Pure LDAP](https://www.reddit.com/r/linuxadmin/comments/5ye1vt/openldap_freeipa_ad_whats_the_difference/)
 - [Identity Management DevOps Conference Presentation](https://www.youtube.com/watch?v=cUQcNi_obIc)
 - [FreeIPA Setup Guide](https://www.server-world.info/en/note?os=Fedora_28&p=freeipa&f=3)
-- [HomeDir AutoFS](https://www.server-world.info/en/note?os=Fedora_28&p=nfs&f=1)]
+- [HomeDir AutoFS](https://www.server-world.info/en/note?os=Fedora_28&p=nfs&f=1)
