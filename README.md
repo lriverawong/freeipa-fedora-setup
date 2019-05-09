@@ -47,8 +47,20 @@ Destroy VMs
 Server Setup
 - https://github.com/freeipa/freeipa-workshop/blob/master/1-server-install.rst
 
+Client Setup
+- https://github.com/freeipa/freeipa-workshop/blob/master/2-client-install.rst
+- be sure to check if dns record added
+    - https://www.server-world.info/en/note?os=Fedora_28&p=freeipa&f=3
+
+NFS Config
+- https://www.server-world.info/en/note?os=Fedora_28&p=nfs&f=1
+
+AutoFS Setup
+- https://blog.delouw.ch/2015/03/14/using-ipa-to-provide-automount-maps-for-nfsv4-home-directories/
+
 ## Sources
 - [Fedora FreeIPA Guide](https://docs.fedoraproject.org/en-US/Fedora/18/html/FreeIPA_Guide/introduction.html)
 - [Reddit - FreeIPA vs. Pure LDAP](https://www.reddit.com/r/linuxadmin/comments/5ye1vt/openldap_freeipa_ad_whats_the_difference/)
 - [Identity Management DevOps Conference Presentation](https://www.youtube.com/watch?v=cUQcNi_obIc)
 - [FreeIPA Setup Guide](https://www.server-world.info/en/note?os=Fedora_28&p=freeipa&f=3)
+- [HomeDir AutoFS](https://www.server-world.info/en/note?os=Fedora_28&p=nfs&f=1)]
