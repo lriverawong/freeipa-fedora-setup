@@ -33,8 +33,9 @@ FreeIPA is an integrated security information management solution combining 389 
 - Can be viewed as an Open Source alternative to Windows AD for linux environments
 
 ### Sources
-- https://docs.fedoraproject.org/en-US/Fedora/18/html/FreeIPA_Guide/introduction.html
-- https://www.reddit.com/r/linuxadmin/comments/5ye1vt/openldap_freeipa_ad_whats_the_difference/
+- [Fedora FreeIPA Guide](https://docs.fedoraproject.org/en-US/Fedora/18/html/FreeIPA_Guide/introduction.html)
+- [Reddit - FreeIPA vs. Pure LDAP](https://www.reddit.com/r/linuxadmin/comments/5ye1vt/openldap_freeipa_ad_whats_the_difference/)
+- [Identity Management DevOps Conference Presentation](https://www.youtube.com/watch?v=cUQcNi_obIc)
 
 ## Home Lab Setup
 
